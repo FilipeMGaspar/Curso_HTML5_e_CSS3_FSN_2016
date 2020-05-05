@@ -5,48 +5,9 @@
 }
 
 div.principal{
-    background-color: bisque;
+    background-color: rgb(230, 224, 217);
     width: 1200px;
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-}
-
-header{
-    background-color: rgb(228, 220, 220);
-    width: 1200px;
-    height: 200px;
-}
-
-nav{
-    background-color: rgb(228, 220, 220);
-     margin-top: 10px;
-     width: 1200px;
-     height: 50px;
-}
-
-section{
-    background-color: rgb(228, 220, 220);
-    margin-top: 10px;
-    width: 900px;
-    height: 500px;
-    float: left;
-}
-
-aside{
-    background-color: rgb(228, 220, 220);
-    width: 290px; 
-    margin-top: 10px;
-    height: 500px;
-    float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-footer{
-    background-color: rgb(228, 220, 220);
-    width: 1200px;
-    height: 60px;
-    margin-top: 10px;
-    clear: both;
 }

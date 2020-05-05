@@ -1,0 +1,25 @@
+div.principal{
+    background-color: rgb(226, 226, 226);
+    width: 1200px;
+    /* margin: 20px; /* em toda a volta */
+    /* alinhamento á direita
+    float: right;
+    margin-right: 30px; */
+    /* centrar a div*/
+    margin: auto;
+}
+
+section.tstpading{
+    background-color: bisque;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 15px;
+    background-color: wheat;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+}

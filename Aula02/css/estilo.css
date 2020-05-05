@@ -30,8 +30,14 @@ section{
     margin-top: 10px;
     width: 900px;
     height: 500px;
+    float: left;
 }
 
 aside{
-    
+    background-color: rgb(228, 220, 220);
+    width: 300px; 
+    margin-top: 10px;
+    height: 500px;
+    float: left;
+    margin-left: 10px;
 }

@@ -1,3 +1,7 @@
+*{
+    margin-top: 0px
+}
+
 div.principal{
     background-color: rgb(226, 226, 226);
     width: 1200px;
@@ -7,6 +11,14 @@ div.principal{
     margin-right: 30px; */
     /* centrar a div*/
     margin: auto;
+    padding: 10px;
+}
+
+section.tstmargin {  
+    background-color: wheat;
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 150px;
 }
 
 section.tstpading{
@@ -15,11 +27,3 @@ section.tstpading{
     box-sizing: border-box;
 }
 
-section {
-    margin-top: 15px;
-    background-color: wheat;
-    width: 1000px;
-    margin: auto;
-    padding: 50px;
-    box-sizing: border-box;
-}

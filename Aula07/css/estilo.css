@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-
-p{
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 div.container{
     width: 70%;
     height: auto;

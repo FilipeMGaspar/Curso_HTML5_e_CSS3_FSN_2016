@@ -21,6 +21,10 @@ figure{
     margin-bottom: 20px;
 }
 
+img{
+    width: 100%;
+}
+
 span.titulo{
     font-size: 25pt;
 }

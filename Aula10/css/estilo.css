@@ -33,6 +33,7 @@ section{
     width: 75%;
     height: 500px;
     float: left;
+    margin-bottom: 10px;
 }
 
 aside{
@@ -54,8 +55,11 @@ footer{
     clear: both;
 }
 
-@media only screen and (max-width: 650px){
-    nav{
-        background-color: rgb(169, 214, 169);
+@media only screen and (max-width: 650px){   
+    aside {
+        display: none;
+    }
+    section{
+        width: 100%;
     }
 }

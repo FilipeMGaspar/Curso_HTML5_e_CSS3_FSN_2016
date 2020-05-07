@@ -54,8 +54,8 @@ footer{
     clear: both;
 }
 
-/*@media screen and(max-width: 400px){
+@media only screen and (max-width: 650px){
     nav{
         background-color: rgb(169, 214, 169);
     }
-}*/
+}

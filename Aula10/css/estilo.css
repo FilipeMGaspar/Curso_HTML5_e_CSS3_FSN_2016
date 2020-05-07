@@ -6,7 +6,7 @@
 
 div.principal{
     background-color: bisque;
-    width: 100px;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
     margin-top: 20px;
@@ -53,3 +53,9 @@ footer{
     margin-top: 10px;
     clear: both;
 }
+
+/*@media screen and(max-width: 400px){
+    nav{
+        background-color: rgb(169, 214, 169);
+    }
+}*/

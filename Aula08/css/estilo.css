@@ -10,9 +10,10 @@ div.container{
     width: 70%;
     height: auto;
     margin: auto;
+    display: flex;
 }
 figure{
-    width: 300px;
+    width: 30%;
     height: auto;
     text-align: center;
     border: 1px solid red;

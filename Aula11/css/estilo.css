@@ -10,3 +10,19 @@ header, nav, section, footer{
     font: 100% Arial;
     color: rgb(238, 230, 230);
 }
+
+header{
+    height: 250px;
+}
+
+section{
+    height: 400px;
+}
+
+nav, footer{
+    height: 55px;
+}
+
+@media only screen and (max-width: 650px){ 
+    
+}

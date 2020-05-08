@@ -59,7 +59,7 @@ footer{
 
 @media only screen and (max-width: 1000px){   
     header{
-        background: url();
+        background: url('../imagens/imagem3.jpg');
     }
     nav{
         background-color: rgb(144, 184, 144);

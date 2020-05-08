@@ -23,6 +23,15 @@ nav, footer{
     height: 55px;
 }
 
+@media only screen and (max-width: 900px){ 
+    header, nav, section, footer{
+        background-color: rgb(110, 110, 110);
+        color: whitesmoke;
+    }
+}
+
 @media only screen and (max-width: 650px){ 
-    
+    header, nav, section, footer{
+        background-color: rgb(211, 211, 211);
+    }
 }

@@ -70,7 +70,19 @@ footer{
 
 }
 
-@media only screen and (max-width: 650px){   
+@media only screen and (max-width: 650px){  
+    
+    header{
+        background: url('../imagens/imagem3.jpg');
+    }
+    nav{
+        background-color: rgb(85, 84, 84);
+        color: white;
+        vertical-align: middle;
+        text-align: center;
+        height: 70px;
+        line-height: 70px;
+    }
     aside {
         display: none;
     }

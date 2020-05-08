@@ -58,9 +58,15 @@ footer{
 }
 
 @media only screen and (max-width: 1000px){   
-  nav{
-      background-color: rgb(144, 184, 144);
-  }
+    header{
+        background: url();
+    }
+    nav{
+        background-color: rgb(144, 184, 144);
+        text-align: center;
+        vertical-align: middle;
+    }
+
 }
 
 @media only screen and (max-width: 650px){   

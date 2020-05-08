@@ -63,6 +63,7 @@ footer{
     }
     nav{
         background-color: rgb(144, 184, 144);
+        line-height: 50px;
         vertical-align: middle;
         text-align: center;
     }

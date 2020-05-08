@@ -87,7 +87,10 @@ footer{
         display: none;
     }
     section{
+        background-color: rgb(129, 129, 129);
+        color: whitesmoke;
         width: 100%;
         text-align: center;
+        padding-top: 20px;
     }
 }

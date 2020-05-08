@@ -75,6 +75,7 @@ footer{
     header{
         background: url('../imagens/imagem3.jpg');
     }
+    
     nav{
         background-color: rgb(85, 84, 84);
         color: white;
@@ -83,9 +84,11 @@ footer{
         height: 70px;
         line-height: 70px;
     }
+    
     aside {
         display: none;
     }
+    
     section{
         background-color: rgb(129, 129, 129);
         color: whitesmoke;
@@ -93,4 +96,12 @@ footer{
         text-align: center;
         padding-top: 20px;
     }
+
+    footer{
+        background-color: rgb(194, 191, 191);
+        text-align: center;
+        vertical-align: middle;
+        line-height: 60px;;
+    }
+
 }

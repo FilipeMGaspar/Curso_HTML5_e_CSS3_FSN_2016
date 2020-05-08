@@ -1,0 +1,12 @@
+header, nav, section, footer{
+    background-color: grey;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;   
+    padding: 10px;
+    font: 100% Arial;
+    color: rgb(238, 230, 230);
+}

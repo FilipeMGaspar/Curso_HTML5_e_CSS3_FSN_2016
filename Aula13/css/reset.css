@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: rgb(75, 75, 75);
+}
+
+div.container, header, section, footer, h1, h2, img, figure, figcaption{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+header, section, footer{
+    margin-top: 7px;
+}

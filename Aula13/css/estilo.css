@@ -15,3 +15,23 @@ h1, h2{
     color: whitesmoke;
     font-size: 1.5em;
 }
+
+.destaques{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgba(9, 9, 73, 0.884);
+    color: whitesmoke;
+}
+
+.titulos{
+    height: 100px;
+    background-color: rgba(9, 9, 73, 0.650);
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    color: whitesmoke;
+}

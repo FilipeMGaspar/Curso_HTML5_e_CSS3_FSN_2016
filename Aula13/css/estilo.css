@@ -35,3 +35,17 @@ h1, h2{
     margin-bottom: 7px;
     color: whitesmoke;
 }
+
+article{
+    margin-top: 30px;
+}
+
+figcaption{
+    padding: 10px;
+    text-align: justify;
+}
+
+.banner2{
+    height: 400px;
+    background-image: url('../imagens/banner_900px.jpg');
+}

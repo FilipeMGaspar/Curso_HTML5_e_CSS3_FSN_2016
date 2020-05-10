@@ -2,8 +2,10 @@ div.banner{
     width: 960px;
     height: 350px;
     margin: 0 auto;
-    animation: slide 10s ifinite;
+    animation: slide 10s infinite;
     animation-direction: alternate;
+    /*animation: slide() 10s infinite;
+    animation-direction: alternate;*/
     
 }
 
@@ -17,6 +19,6 @@ div.banner{
     }
 
     70%, 100%{
-        background-image: url('../imagens/portatil.jpg');
+        background-image: url('../imagens/desktop.jpg');
     }
 }

@@ -9,14 +9,14 @@ div.banner{
 
 @keyframes slide{
     0%, 30%{
-        background-image: url();
+        background-image: url('../imagens/portatil.jpg');
     } 
 
     35%, 65%{
-        background-image: url();
+        background-image: url('../imagens/mobile.jpg');
     }
 
     70%, 100%{
-        background-image: url();
+        background-image: url('../imagens/portatil.jpg');
     }
 }

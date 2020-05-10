@@ -55,6 +55,12 @@ div.banner3{
     animation-direction: alternat
 }
 
+h2, h3, h4{
+    line-height: 400px;
+    background-color: rgb(87, 82, 82);
+    display: none;
+}
+
 @keyframes slide1{
     
     0%, 15%{

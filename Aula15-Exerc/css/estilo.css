@@ -22,4 +22,27 @@ h1{
     margin-left: 25px;
     box-sizing: border-box;
     padding-top: 150px;
+    float: left;
 }
+
+div.banner1{
+    background-color: grey;
+    float: right;
+    height: 100%;
+    margin-right: 10px;
+}
+
+div.banner2{
+    background-color: grey;
+    float: right;
+    height: 100%;
+    margin-right: 10px;
+}
+
+div.banner3{
+    background-color: grey;
+    float: right;
+    height: 100%;
+    margin-right: 10px;
+}
+

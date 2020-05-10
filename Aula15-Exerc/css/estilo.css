@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 900px;
+    height: 400px;
+    background-color: #8a4518;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Parisienne', cursive;
+    background-color: #572a0b;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;  
+    width: 25%;  
+    color: whitesmoke;
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding-top: 150px;
+}

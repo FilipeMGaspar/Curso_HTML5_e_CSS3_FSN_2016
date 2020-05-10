@@ -41,6 +41,8 @@ div.banner2{
     float: right;
     height: 100%;
     margin-right: 10px;
+    animation: slide2 8s infinite;
+    animation-direction: alternat
 }
 
 div.banner3{
@@ -49,9 +51,57 @@ div.banner3{
     float: right;
     height: 100%;
     margin-right: 10px;
+    animation: slide3 8s infinite;
+    animation-direction: alternat
 }
 
 @keyframes slide1{
+    
+    0%, 15%{
+        background-image: url('../imagens/fashion1.jpg');
+    }
+
+    20%, 35%{
+        background-image: url('../imagens/fashion2.jpg');
+    }
+
+    40%, 55%{
+        background-image: url('../imagens/fashion3.jpg');
+    }
+
+    60%, 75%{
+        background-image: url('../imagens/fashion4.jpg');
+    }
+
+    80%, 100%{
+        background-image: url('../imagens/fashion5.jpg');
+    }
+}
+
+@keyframes slide2{
+    
+    0%, 15%{
+        background-image: url('../imagens/acessories1.jpg');
+    }
+
+    20%, 35%{
+        background-image: url('../imagens/acessories2.jpg');
+    }
+
+    40%, 55%{
+        background-image: url('../imagens/acessories3.jpg');
+    }
+
+    60%, 75%{
+        background-image: url('../imagens/acessories4.jpg');
+    }
+
+    80%, 100%{
+        background-image: url('../imagens/acessories5.jpg');
+    }
+}
+
+@keyframes slide3{
     
     0%, 15%{
         background-image: url('../imagens/fashion1.jpg');

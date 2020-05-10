@@ -57,8 +57,19 @@ div.banner3{
 
 h2, h3, h4{
     line-height: 400px;
-    background-color: rgb(87, 82, 82);
-    display: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+    height: 100%;
+}
+
+h2:hover, h3:hover, h4:hover{
+    background-color: rgba(71, 70, 69, 0.705);
+    transition: 1s;
+    color: black;
+    text-align: center;
+    font-size: 16pt;
+    color: whitesmoke;
+    text-transform: uppercase;
 }
 
 @keyframes slide1{

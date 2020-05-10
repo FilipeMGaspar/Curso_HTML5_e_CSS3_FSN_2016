@@ -55,7 +55,7 @@ section.fundo{
     float: left;
     background-image: url('../imagens/fundo.png');
     background-repeat: no-repeat;
-    background-position-x: 40%;
+    background-position-x: 50%
 }
 
 h2{

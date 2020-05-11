@@ -45,3 +45,24 @@ ul.horizontal li:hover ul{
     display: block;
 }
 
+div.submenu{
+    background-color: rgb(211, 203, 203);
+    width: 400px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+section{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    margin-top: 3px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}

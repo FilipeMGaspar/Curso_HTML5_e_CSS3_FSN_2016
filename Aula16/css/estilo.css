@@ -5,8 +5,34 @@
     font-size: 15pt;
 }
 
+
+
+/*Menu Horizontal */
+ul.horizontal{
+    list-style: none;
+}
+
+ul.horizontal li{
+    background-color: rgb(211, 203, 203);
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    /*float: left; */
+    text-align: center;
+}
+
+ul.horizontal li:hover{
+    background-color: rgb(104, 96, 96);
+    color: whitesmoke;
+}
+
+/* Menu Vertical*/
 ul{
+   
     list-style-type: none;
+    margin-top: 15px;
 }
 
 ul li{

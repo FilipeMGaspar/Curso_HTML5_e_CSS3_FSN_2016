@@ -45,19 +45,3 @@ ul.horizontal li:hover ul{
     display: block;
 }
 
-/* Menu Vertical*/
-/*
-ul{
-   
-    list-style-type: none;
-    margin-top: 15px;
-}
-
-ul li{
-    background-color: rgb(189, 180, 180);
-    width: 150px;
-    height: 30px;
-    margin-top: 5px;
-    line-height: 30px;
-    cursor: pointer;
-}*/

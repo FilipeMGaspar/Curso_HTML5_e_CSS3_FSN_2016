@@ -5,6 +5,11 @@
     font-size: 15pt;
 }
 
+ul{
+   
+    list-style-type: none;
+}
+
 /*Menu Horizontal */
 ul.horizontal{
     list-style: none;
@@ -24,6 +29,20 @@ ul.horizontal li{
 ul.horizontal li:hover{
     background-color: rgb(104, 96, 96);
     color: whitesmoke;
+}
+
+ul.horizontal ul li{
+ text-align: left;
+ box-sizing: border-box;
+ padding-left: 10px;
+}
+
+ul.horizontal ul{
+    display: none;
+}
+
+ul.horizontal li:hover ul{
+    display: block;
 }
 
 /* Menu Vertical*/

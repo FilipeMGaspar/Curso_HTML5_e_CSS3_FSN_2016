@@ -57,3 +57,46 @@ ul.menu li:hover{
     background-color: #888888;
 }
 
+.btn_salvar, .btn_limpar, .btn_excluir{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #dddddd;
+}
+
+.btn_salvar{
+    /*background-image: url();*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 10% 50%;*/
+    /*background-size: 20px;*/
+    background-color: rgba(28, 112, 28, 0.747);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn_limpar{
+        /*background-image: url();*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 10% 50%;*/
+    /*background-size: 20px;*/
+    background-color: rgba(28, 41, 112, 0.747);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn_excluir{
+    /*background-image: url();*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 10% 50%;*/
+    /*background-size: 20px;*/
+    background-color: rgba(189, 18, 18, 0.836);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.campo{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 5px;
+    border: 1px solid #dddddd;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registe-se grátis!</title>
+    <link rel="stylesheet" href="css/utilizador.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <li>Utilizadores</li>
+                <li>Fornecedores</li>
+                <li>Clientes</li>
+                <li>Serviços</li>
+                <li>Consultas</li>
+                <li>Sair</li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>registo de Utilizadores</h1>
+            <br>
+
+            <form method="POST" action="">
+                <input type="submit" class="btn-salvar" value="Salvar">
+                <input type="reset" class="btn-limpar" value="limpar">
+                <input type="button" class="btn excluir" value="Eliminar"><br><br>
+
+                <input type="text" name="utilizador" id="utilizador"  class="campo" placeholder="Mome do utilizador" required autofocus><br>
+
+                <input type="email" name="email" id="email" class="campo" placeholder="mome@dominio.pt" required> <br>
+                
+                <input type="text" name="nome" class="campo" placeholder="Nome completo" required>
+
+            </form>
+        </section>
+    </div>
+</body>
+</html>

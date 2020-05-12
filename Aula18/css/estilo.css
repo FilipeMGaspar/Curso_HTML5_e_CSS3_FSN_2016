@@ -1,0 +1,19 @@
+body{
+    background-color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 95%;
+}
+
+section{
+    width: 860px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+fieldset{
+    width: 700px;
+    margin: auto;
+    border: 3px solid #dddddd;
+    border-radius: 5px;
+}

@@ -25,3 +25,8 @@ fieldset{
     border-radius: 3px;
     margin-top: 5px;
 }
+
+textarea{
+    width: 250px;
+    height: 100px;
+}

@@ -2,8 +2,8 @@
     include_once("conecao.php");
 
     $sql = "select * from utilizadores";
-    $consulta = msqli_query($conexao, $sql);
-    $registos = msquli_num_rows($consulta);
+    $consulta = mysqli_query($conexao, $sql);
+    $registos = mysqli_num_rows($consulta);
 
     mysqli_close($conexao);
 ?>
@@ -31,7 +31,7 @@
         <hr><br><br>
 
         <?php
-         print "$registos registos encontrados";
+         print "Foram encontrados $registos registos";
         ?>
 
     </section>

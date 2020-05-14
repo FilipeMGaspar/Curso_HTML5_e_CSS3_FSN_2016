@@ -1,0 +1,16 @@
+ para criar a base de dados
+
+CREATE DATABASE IF not EXISTS registo
+DEFAULT CHARACTER SET UTF8
+DEFAULT COLLATE utf8_general_ci
+
+
+	para criar a tabela
+
+CREATE TABLE if not EXISTS utilizadores(
+codigo int not null AUTO_INCREMENT,
+nome varchar(40) not null,
+email varchar(50) not null UNIQUE,
+profissao varchar(40) not null,
+PRIMARY KEY(codigo)    
+)DEFAULT charset=utf8;

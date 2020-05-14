@@ -9,6 +9,11 @@ body{
     font-size: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 div.container{
     margin: auto;
     width: 1200px;
@@ -31,6 +36,8 @@ section{
     margin-left: 10px;
     float: left;
     background-color: rgb(209, 199, 199);
+    box-sizing: border-box;
+    padding-left: 25px;
 }
 
 ul.menu{
@@ -46,4 +53,26 @@ ul.menu li{
     margin-top: 25px;
     box-sizing: border-box;
     padding-left: 10px;
+}
+
+ul.menu li:hover{
+    background-color: rgb(102, 95, 95);
+    text-decoration: overline;
+}
+
+input.btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #dddddd;
+    background-color: #2a578b;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+input.campo{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }

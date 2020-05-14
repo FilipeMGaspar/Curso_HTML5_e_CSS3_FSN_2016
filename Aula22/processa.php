@@ -4,6 +4,8 @@
     $email = $_POST['email'];
     $profissao = $_POST['profissao'];
 
-    $sql = "insert into utilizadores ()"
+    $sql = "insert into utilizadores (nome,email,profissao) values ('$nome', '$email', '$profissao')";
+
+    $salvar = mysqli_query($conexao, $sql);
     mysqli_close($conexao)
 ?>

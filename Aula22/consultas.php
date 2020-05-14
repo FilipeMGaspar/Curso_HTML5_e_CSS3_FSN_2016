@@ -1,5 +1,11 @@
 <?php
-    include_once("conecao.php")
+    include_once("conecao.php");
+
+    $sql = "select * from utilizadores";
+    $consulta = msqli_query($conexao, $sql);
+    $registos = msquli_num_rows($consulta);
+
+    mysqli_close($conexao);
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +30,9 @@
         <h1>Consultas</h1>
         <hr><br><br>
 
+        <?php
+         print "$registos registos encontrados";
+        ?>
 
     </section>
  </div>

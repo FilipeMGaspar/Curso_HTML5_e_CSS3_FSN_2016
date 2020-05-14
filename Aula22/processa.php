@@ -7,7 +7,10 @@
     $sql = "insert into utilizadores (nome,email,profissao) values ('$nome', '$email', '$profissao')";
 
     $salvar = mysqli_query($conexao, $sql);
-    mysqli_close($conexao)
+    
+    $linhas = mysqli_affected_rows($conexao);
+
+    mysqli_close($conexao);
 ?>
 
 <!DOCTYPE html>
@@ -31,6 +34,14 @@
     <section>
         <h1>Confirmação de Registo</h1>
         <hr><br><br>
+
+            <?php
+                if($linhas == 1){
+                    print "Registo efectuado com sucesso";
+                }else{
+                    print "Registo NÂO efectuado. <br> Ja existe um utilizador com este E-Mail";
+                }
+            ?>
 
     </section>
  </div>

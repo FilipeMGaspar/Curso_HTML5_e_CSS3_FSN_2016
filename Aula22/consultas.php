@@ -48,7 +48,7 @@
                 
                 $profissao = $exebirRegistos[3];
 
-                print "<article>";
+                print "<article class='procurou'>";
 
                     print "$codigo<br>";
                     print "$nome<br>";
@@ -56,9 +56,7 @@
                     print "$profissao";
                      
                 print "</article>";
-
             }
-
             mysqli_close($conexao);
         ?>
 

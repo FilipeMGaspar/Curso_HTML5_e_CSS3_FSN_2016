@@ -1,7 +1,9 @@
 <?php
     include_once("conecao.php");
 
-    $sql = "select * from utilizadores";
+    $filtro = isset($_GET['filtro'])?$_GET['filtro']:""
+
+    $sql = "select * from utilizadores where profissao like '%$filtro%'";
     $consulta = mysqli_query($conexao, $sql);
     $registos = mysqli_num_rows($consulta);
 

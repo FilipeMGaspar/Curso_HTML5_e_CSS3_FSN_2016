@@ -40,6 +40,14 @@ section{
     padding-left: 25px;
 }
 
+article {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #d6d5d5;
+}
+
 ul.menu{
     list-style: none;
 }
@@ -77,10 +85,3 @@ input.campo{
     margin-bottom: 15px;
 }
 
-article.procurou{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: gray;
-    margin-bottom: 5px;
-}

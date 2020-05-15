@@ -38,8 +38,7 @@
             print "Foram encontrados $registos registos";
             print "<br><br>";
 
-            while($exebirRegistos = mysqli_fetch_array($consulta)){
-                
+            while($exebirRegistos = mysqli_fetch_array($consulta)){                
                 $codigo = $exebirRegistos[0];
                 
                 $nome = $exebirRegistos[1];
@@ -48,13 +47,11 @@
                 
                 $profissao = $exebirRegistos[3];
 
-                print "<article class='procurou'>";
-
+                print "<article>";
                     print "$codigo<br>";
                     print "$nome<br>";
                     print "$email<br>";
-                    print "$profissao";
-                     
+                    print "$profissao";     
                 print "</article>";
             }
             mysqli_close($conexao);

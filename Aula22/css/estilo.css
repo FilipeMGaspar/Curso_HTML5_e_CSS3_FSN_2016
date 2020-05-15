@@ -76,3 +76,11 @@ input.campo{
     margin-top: 5px;
     margin-bottom: 15px;
 }
+
+article{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 5px;
+}
